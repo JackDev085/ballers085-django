@@ -1,0 +1,16 @@
+# Python files
+__pycache__/
+.venv/
+venv/
+.env/
+.env
+
+# Django files
+staticfiles/
+
+
+# macOS files
+.DS_Store
+
+#comandos
+comandos

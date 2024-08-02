@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+<h2>Treinos de {{categoria}}</h2>
+{% for treino in treinos %}
+<div class="treinos">
+  <div class="cardTreino">
+    <div class="img-texto">
+      <img src="https://i.ytimg.com/vi/{{treino.link_video_treino}}/hqdefault.jpg" alt="capa treino">
+      <div class="cardTreino-texto">
+        <span class="nome_treino">{{ treino.nome }}</span>
+        <span>Duração: {{ treino.duracao }}</span>
+        <a href="{% url 'profile_link' treino.criador %}" class="link_user">Criador: @{{ treino.criador }}</a>
+        <span>{{ treino.data_criacao }}</span>
+      </div>
+    </div>
+    <a href="{% url 'treino_exercicio' treino.categoria treino.caminho_treino_url %}" class="btn">Ver treino</a>
+  </div>
+</div>
+{% endfor %}
+
+
+{% endblock content %}

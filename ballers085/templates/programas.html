@@ -1,0 +1,33 @@
+{% load static %}
+<div class="cards">
+  <a href="{% url 'treinos_categoria' 'arremesso'%}">
+    <div class="card">
+      <img src="{% static "imgs/arremesso.png" %}" alt="imagem de arremesso">
+      <h3>Arremesso</h3>
+      <p>Melhore seu arremesso</p>
+    </div>
+  </a>
+  <a href="{% url 'treinos_categoria'  'academia' %}">
+    <div class="card">
+      <img src="{% static "imgs/academia.png" %}" alt="imagem de academia">
+      <h3>Academia</h3>
+      <p>Treinos na academia</p>
+    </div>
+  </a>
+
+  <a href="{% url 'treinos_categoria'  'drible' %}">
+    <div class="card">
+      <img src="{% static "imgs/drible.png" %}" alt="imagem de arremesso">
+      <h3>Drible</h3>
+      <p>Melhore seu drible</p>
+    </div>
+  </a>
+
+  <a href="{% url 'treinos_categoria'  'fisico' %}">
+    <div class="card">
+      <img src="{% static "imgs/fisico.png" %}" alt="imagem de arremesso">
+      <h3>Físico</h3>
+      <p>Melhore seu físico</p>
+    </div>
+  </a>
+</div>

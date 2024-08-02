@@ -1,0 +1,72 @@
+p {
+  color: #afafaf;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+span {
+  font-weight: 900;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Certifique-se de que o cabeçalho esteja acima de outros elementos */
+  background: white; /* Adicione um fundo ao cabeçalho se necessário */
+}
+
+.iframe {
+  width: 100%;
+  height: 40vh;
+  position: fixed;
+  left: 0;
+  top: 50px; /* Ajuste este valor para a altura do seu header */
+  z-index: 999; /* Certifique-se de que o iframe esteja abaixo do cabeçalho */
+}
+
+.exercicios {
+  width: 100%;
+  margin-top: calc(40vh + 50px); /* Compensa a altura do iframe e do header */
+  overflow-y: auto;
+  padding: 20px; /* Adiciona um pouco de espaçamento interno */
+  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+  margin-bottom: 2rem;
+}
+
+.cardExercicio {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 0.5fr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px; /* Adiciona espaçamento entre os cartões */
+}
+
+.cardExercicio_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.7rem;
+  gap: 0.2rem;
+}
+
+.cardExercicio img {
+  height: 80px;
+  width: 100px;
+}
+
+.cardExercicio a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-seta img {
+  height: 30px;
+  width: 30px;
+}
+.ativo {
+  background-color: blue;
+}

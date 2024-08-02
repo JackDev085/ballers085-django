@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{%load static %}
+{% block content %}
+<div class="perfil">
+<img src="{% static usuario.link_foto_perfil %}" alt="imagem de perfil">
+<h2>{{usuario.nome_completo}}</h2>
+</div>
+{% endblock content %}

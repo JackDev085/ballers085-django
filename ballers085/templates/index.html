@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extracss %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}" />
+{% endblock extracss %}
+
+{% block content %}
+<h1>Treinos</h1>
+<p>Treinos separados por categoria</p>
+{% include "programas.html" %}
+{% include "contribuicao.html" %}
+{% endblock content %}
+
+

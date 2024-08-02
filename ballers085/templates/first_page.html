@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para treinos de basquete e comunidade.">
+    <meta name="keywords" content="basquete, treinos, comunidade">
+    <meta name="author" content="Jackson Lorran">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ballers085">
+    <meta property="og:description" content="Site para treinos de basquete e comunidade.">
+    <meta property="og:url" content="https://ballers085-3bab2862ad19.herokuapp.com/ballers085">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{% static 'imgs/logo.png' %}">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content='{{user.username}}'>
+    <meta name="twitter:title" content="Ballers085">
+    <meta name="twitter:description" content="Site para treinos de basquete e comunidade.">
+    <meta name="twitter:image" content="{% static 'imgs/logo.png' %}">
+    
+    <meta name="theme-color" content="#ffffff"> <!-- Cor do tema (barra de status em dispositivos móveis) -->
+    <meta name="background-color" content="#000"> <!-- Cor de fundo ao compartilhar o link -->
+    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Habilita modo de aplicativo para iOS -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- Cor da barra de status iOS -->
+    <meta name="apple-mobile-web-app-title" content="ballers085"> <!-- Título do aplicativo iOS -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'imgs/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'imgs/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'imgs/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'site.webmanifest' %}">
+  
+    <!-- Ícones para PWA -->
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'imgs/android-chrome-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="512x512" href="{% static 'imgs/android-chrome-512x512.png' %}">
+  
+    <link rel="stylesheet" href="{% static 'css/first_page.css' %}">
+    <title>Descubra ballers085</title>
+  </head>
+<body>
+  <div class="init">
+    <div class="img">
+      <img src="{% static 'imgs/logo.png' %}" alt="logo ballers085" />
+    </div>
+    
+    <div class="main">
+      <h1>
+        <em>"É preciso se atrever a ser grande", </em>Kobe Bryant.</h1>
+        <p>Afim de melhorar no basquete? Você está no lugar certo.
+           Ponha o cinto e o capacete e vamo fazer acontecer.</p>
+      <a class="cta-button" href="{% url 'index' %}">Let's Go Baby🏀</a>
+    </div>
+    
+    </div>
+    <footer>
+      <div class="footer">
+        <a href="">©Desenvolvido por jack</a>
+      </div>
+    </footer>
+</body>
+</html>

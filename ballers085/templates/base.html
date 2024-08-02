@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site para treinos de basquete e comunidade."
+    />
+    <meta name="keywords" content="basquete, treinos, comunidade" />
+    <meta name="author" content="Jackson Lorran" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ballers085" />
+    <meta
+      property="og:description"
+      content="Site para treinos de basquete e comunidade."
+    />
+    <meta
+      property="og:url"
+      content="https://ballers085-3bab2862ad19.herokuapp.com/ballers085"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{% static 'imgs/logo.png' %}" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="{{user.username}}" />
+    <meta name="twitter:title" content="Ballers085" />
+    <meta
+      name="twitter:description"
+      content="Site para treinos de basquete e comunidade."
+    />
+    <meta name="twitter:image" content="{% static 'imgs/logo.png' %}" />
+
+    <!-- Meta tags para PWA -->
+    <meta name="theme-color" content="#000" />
+    <!-- Cor do tema (barra de status em dispositivos móveis) -->
+    <meta name="background-color" content="#000" />
+    <!-- Cor de fundo ao compartilhar o link -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Habilita modo de aplicativo para iOS -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <!-- Cor da barra de status iOS -->
+    <meta name="apple-mobile-web-app-title" content="ballers085" />
+    <!-- Título do aplicativo iOS -->
+
+    <!-- Ícones para PWA -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{% static 'imgs/apple-touch-icon.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{% static 'imgs/favicon-32x32.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{% static 'imgs/favicon-16x16.png' %}"
+    />
+    <link rel="manifest" href="{% static 'site.webmanifest' %}" />
+
+    <!-- Ícones para Android -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="{% static 'imgs/android-chrome-192x192.png' %}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="{% static 'imgs/android-chrome-512x512.png' %}"
+    />
+
+    <!-- Para navegadores baseados em WebKit (Chrome, Opera, Safari) -->
+    <meta name="theme-color" content="#000" />
+
+    <!-- Para Safari no iOS -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Para Windows -->
+    <meta name="msapplication-TileColor" content="#000" />
+    <meta
+      name="msapplication-TileImage"
+      content="{% static 'imgs/android-chrome-192x192.png' %}"
+    />
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+    {% block extracss %}
+    <link rel="stylesheet" href="{% static extracss %}" />
+    {% endblock extracss %}
+    <title>Ballers085</title>
+  </head>
+
+  <body>
+    <div class="loader" id="loader">
+      <div class="spinner"></div>
+    </div>
+    <div class="container">
+      <header class="header">
+        <a href="{% url 'index' %}" class="logo">
+          <img src="{% static 'imgs/logo.png' %}" alt="Logo" />
+        </a>
+        <div class="user-info">
+          {% if user.is_authenticated %}
+          <p>Bem-vindo, {{ user.username }}!</p>
+          <form method="post" action="{% url 'logout' %}" class="logout-form">
+            {% csrf_token %}
+            <button type="submit" class="logout-button">Logout</button>
+          </form>
+          {% else %}
+          <a href="{% url 'login' %}" class="login-link">Login</a>
+          <a href="{% url 'register' %}" class="register-link">Cadastro</a>
+          {% endif %}
+        </div>
+      </header>
+
+      <main class="content">
+        {% if messages %}
+        <div class="messages">
+          {% for message in messages %}
+          <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+        {% endif %} {% block content %} {% endblock %}
+      </main>
+      <nav class="nav">
+        <a href="{% url 'index' %}" class="nav-link">
+          <img
+            src="{% static 'imgs/home-icon.png' %}"
+            alt="Ícone da página home"
+          />
+        </a>
+        <a href="{% url 'hoop' %}" class="nav-link">
+          <img
+            src="{% static 'imgs/hoop-icon.png' %}"
+            alt="Ícone da página hoop"
+          />
+        </a>
+        <a href="{% url 'profile' %}" class="nav-link">
+          <img
+            src="{% static 'imgs/user-icon.png' %}"
+            alt="Ícone da página usuário"
+          />
+        </a>
+      </nav>
+    </div>
+    {%block extrajs %}
+    <script src="{% static 'js/base.js' %}"></script>
+    {% endblock extrajs %}
+  </body>
+</html>

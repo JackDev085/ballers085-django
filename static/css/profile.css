@@ -1,0 +1,13 @@
+.perfil{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 0.7rem;
+  color: rgb(182, 182, 182);
+}
+.perfil img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+}

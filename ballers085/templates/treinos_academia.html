@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+ {% block content %} {% load static %}
+<h2>Treinos de {{categoria}}</h2>
+<div class="treinos">
+  <p>Carga: Moderada</p>
+  <p>Descanso: 40 seg a 1 min e 30 seg</p>
+  <p>Nivél: Intermediário</p>
+  <table class="tabela_treinamento">
+    <thead>
+      <tr>
+        <th>Dia da Semana</th>
+        <th>Treino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Segunda-feira</td>
+        <td>Superiores</td>
+      </tr>
+      <tr>
+        <td>Terça-feira</td>
+        <td>Inferiores + core (Em breve)</td>
+      </tr>
+      <tr>
+        <td>Quarta-feira</td>
+        <td>Descanso</td>
+      </tr>
+      <tr>
+        <td>Quinta-feira</td>
+        <td>Superiores</td>
+      </tr>
+      <tr>
+        <td>Sexta-feira</td>
+        <td>Inferiores + core (Em breve)</td>
+      </tr>
+      <tr>
+        <td>Sábado</td>
+        <td>Descanso</td>
+      </tr>
+      <tr>
+        <td>Domingo</td>
+        <td>Descanso</td>
+      </tr>
+    </tbody>
+  </table>
+  {% for treino in treinos %}
+  <div class="cardTreino">
+    <div class="img-texto">
+      <img src="https://i.ytimg.com/vi/{{treino.link_video_treino}}/hqdefault.jpg" alt="capa treino">
+      <div class="cardTreino-texto">
+        <span class="nome_treino">{{ treino.nome }}</span>
+        <span>Duração: {{ treino.duracao }}</span>
+        <a href="{% url 'profile_link' treino.criador %}" class="link_user"
+          >Criador: @{{ treino.criador }}</a
+        >
+        <span>{{ treino.data_criacao }}</span>
+      </div>
+    </div>
+    <a
+      href="{% url 'treino_exercicio' treino.categoria treino.caminho_treino_url %}"
+      class="btn"
+      >Ver treino</a
+    >
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock content %}

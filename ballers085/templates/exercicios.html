@@ -1,0 +1,54 @@
+{% extends "base.html" %} {% load static %}{% block extracss %}
+<link rel="stylesheet" href="{% static 'css/exercicios.css' %}" />
+{% endblock extracss %} {% block content %}
+<div class="iframe">
+  {% if exercicio1 %}
+  <iframe
+    id="videoIframe"
+    width="100%"
+    height="100%"
+    src="https://www.youtube.com/embed/{{ exercicio1.link }}?controls=1&rel=0&modestbranding=1"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  >
+  </iframe>
+  {% else %}
+  <p>Vídeo não disponível.</p>
+  {% endif %}
+</div>
+<div class="exercicios">
+  {% for exercicio in exercicios %}
+  <div class="cardExercicio">
+    <img
+      src="https://i.ytimg.com/vi/{{exercicio.link}}/hqdefault.jpg"
+      alt="imagem do exercicio"
+    />
+    <div class="cardExercicio_info">
+      <span>{{ exercicio.nome }}</span>
+      <p>{{ exercicio.repeticoes }}</p>
+    </div>
+    <a href="#" data-link="{{ exercicio.link }}" class="btn-seta">
+      <img src="{% static 'imgs/seta.png' %}" alt="" />
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".btn-seta");
+    const iframe = document.getElementById("videoIframe");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", function (event) {
+        event.preventDefault(); // Previne o comportamento padrão do link
+        const videoLink = this.getAttribute("data-link");
+        iframe.src = `https://www.youtube.com/embed/${videoLink}?controls=1&rel=0&modestbranding=1`;
+      });
+    });
+  });
+</script>
+{% endblock content %} {% block extrajs %}
+<script src="{% static 'js/exercicios.js' %}"></script>
+{% endblock extrajs %}

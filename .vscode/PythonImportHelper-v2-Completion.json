@@ -1,0 +1,1124 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "first_page",
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "isExtraImport": true,
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLoginView",
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "isExtraImport": true,
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "importPath": "django.conf.urls",
+        "description": "django.conf.urls",
+        "isExtraImport": true,
+        "detail": "django.conf.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "importPath": "django.conf.urls",
+        "description": "django.conf.urls",
+        "isExtraImport": true,
+        "detail": "django.conf.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ModelBackend",
+        "importPath": "django.contrib.auth.backends",
+        "description": "django.contrib.auth.backends",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.backends",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "api.asgi",
+        "description": "api.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "api.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# SESSION_EXPIRE_AT_BROWSER_CLOSE = True\nSECRET_KEY = os.getenv(\"DJANGO_SECRET_KEY\")\n# Use o backend de sessão padrão do Django\nSESSION_ENGINE = 'django.contrib.sessions.backends.db'\n# Configurações de CSRF\nCSRF_USE_SESSIONS = False\n# The `DYNO` env var is set on Heroku CI, but it's not a real Heroku app, so we have to\n# also explicitly exclude CI:\n# https://devcenter.heroku.com/articles/heroku-ci#immutable-environment-variables",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"DJANGO_SECRET_KEY\")\n# Use o backend de sessão padrão do Django\nSESSION_ENGINE = 'django.contrib.sessions.backends.db'\n# Configurações de CSRF\nCSRF_USE_SESSIONS = False\n# The `DYNO` env var is set on Heroku CI, but it's not a real Heroku app, so we have to\n# also explicitly exclude CI:\n# https://devcenter.heroku.com/articles/heroku-ci#immutable-environment-variables\nIS_HEROKU_APP = \"DYNO\" in os.environ and not \"CI\" in os.environ\n# SECURITY WARNING: don't run with debug turned on in production!",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SESSION_ENGINE",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "SESSION_ENGINE = 'django.contrib.sessions.backends.db'\n# Configurações de CSRF\nCSRF_USE_SESSIONS = False\n# The `DYNO` env var is set on Heroku CI, but it's not a real Heroku app, so we have to\n# also explicitly exclude CI:\n# https://devcenter.heroku.com/articles/heroku-ci#immutable-environment-variables\nIS_HEROKU_APP = \"DYNO\" in os.environ and not \"CI\" in os.environ\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG =False\nif not IS_HEROKU_APP:",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_USE_SESSIONS",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "CSRF_USE_SESSIONS = False\n# The `DYNO` env var is set on Heroku CI, but it's not a real Heroku app, so we have to\n# also explicitly exclude CI:\n# https://devcenter.heroku.com/articles/heroku-ci#immutable-environment-variables\nIS_HEROKU_APP = \"DYNO\" in os.environ and not \"CI\" in os.environ\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG =False\nif not IS_HEROKU_APP:\n    DEBUG = True\n# On Heroku, it's safe to use a wildcard for `ALLOWED_HOSTS``, since the Heroku router performs",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "IS_HEROKU_APP",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "IS_HEROKU_APP = \"DYNO\" in os.environ and not \"CI\" in os.environ\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG =False\nif not IS_HEROKU_APP:\n    DEBUG = True\n# On Heroku, it's safe to use a wildcard for `ALLOWED_HOSTS``, since the Heroku router performs\n# validation of the Host header in the incoming HTTP request. On other platforms you may need to\n# list the expected hostnames explicitly in production to prevent HTTP Host header attacks. See:\n# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-ALLOWED_HOSTS\nif IS_HEROKU_APP:",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "LOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = 'index'\nLOGOUT_REDIRECT_URL = 'login'\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'index'\nLOGOUT_REDIRECT_URL = 'login'\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'login'\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"ballers085\",\n]",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'ballers085.auth_backend.EmailBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nMIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "ROOT_URLCONF = \"api.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"api.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nif IS_HEROKU_APP:\n    # In production on Heroku the database configuration is derived from the `DATABASE_URL`\n    # environment variable by the dj-database-url package. `DATABASE_URL` will be set\n    # automatically by Heroku when a database addon is attached to your Heroku app. See:\n    # https://devcenter.heroku.com/articles/provisioning-heroku-postgres#application-config-vars\n    # https://github.com/jazzband/dj-database-url\n    DATABASES = {",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"pt-br\"\nTIME_ZONE = \"America/Fortaleza\"\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "TIME_ZONE = \"America/Fortaleza\"\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:\n    # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:\n    # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support\n    \"staticfiles\": {",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:\n    # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / \"staticfiles\"\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:\n    # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}\n# Don't store the original (un-hashed filename) version of static files, to reduce slug size:",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'static']\nSTORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:\n    # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}\n# Don't store the original (un-hashed filename) version of static files, to reduce slug size:\n# https://whitenoise.readthedocs.io/en/latest/django.html#WHITENOISE_KEEP_ONLY_HASHED_FILES",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STORAGES",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "STORAGES = {\n    # Enable WhiteNoise's GZip and Brotli compression of static assets:\n    # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support\n    \"staticfiles\": {\n        \"BACKEND\": \"whitenoise.storage.CompressedManifestStaticFilesStorage\",\n    },\n}\n# Don't store the original (un-hashed filename) version of static files, to reduce slug size:\n# https://whitenoise.readthedocs.io/en/latest/django.html#WHITENOISE_KEEP_ONLY_HASHED_FILES\nWHITENOISE_KEEP_ONLY_HASHED_FILES = True",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WHITENOISE_KEEP_ONLY_HASHED_FILES",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "WHITENOISE_KEEP_ONLY_HASHED_FILES = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "custom_404",
+        "kind": 2,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "def custom_404(request, exception):\n    return render(request, '404.html', status=404)\nif DEBUG:\n    urlpatterns = [\n        path('admin/', admin.site.urls),\n        path('', first_page, name='first_page'),\n        path('ballers085/', include('ballers085.urls')),\n        path('accounts/login/', CustomLoginView.as_view(), name='login'),\n        path('accounts/', include('django.contrib.auth.urls'))\n    ]",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "handler404 = custom_404",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "api.wsgi",
+        "description": "api.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "api.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0001_initial",
+        "description": "ballers085.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Treinos',\n            fields=[\n                ('nome', models.CharField(max_length=30, unique=True)),",
+        "detail": "ballers085.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0002_userprofile_link_foto_perfil",
+        "description": "ballers085.migrations.0002_userprofile_link_foto_perfil",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='userprofile',\n            name='link_foto_perfil',\n            field=models.CharField(default='user-icon.jpg', max_length=100),\n        ),",
+        "detail": "ballers085.migrations.0002_userprofile_link_foto_perfil",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0003_auto_20240629_1423",
+        "description": "ballers085.migrations.0003_auto_20240629_1423",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0002_userprofile_link_foto_perfil'),\n    ]\n    operations = [\n    migrations.RunSQL(\n        \"DROP TABLE IF EXISTS django_session\",\n        reverse_sql=\"CREATE TABLE django_session (session_key varchar(40) NOT NULL PRIMARY KEY, session_data text NOT NULL, expire_date datetime NOT NULL)\"\n    ),\n    ]",
+        "detail": "ballers085.migrations.0003_auto_20240629_1423",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0004_alter_userprofile_link_foto_perfil",
+        "description": "ballers085.migrations.0004_alter_userprofile_link_foto_perfil",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0003_auto_20240629_1423'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userprofile',\n            name='link_foto_perfil',\n            field=models.CharField(default='imgs/usuarios/user-icon.jpg', max_length=100),\n        ),",
+        "detail": "ballers085.migrations.0004_alter_userprofile_link_foto_perfil",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0005_alter_userprofile_link_foto_perfil",
+        "description": "ballers085.migrations.0005_alter_userprofile_link_foto_perfil",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0004_alter_userprofile_link_foto_perfil'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userprofile',\n            name='link_foto_perfil',\n            field=models.CharField(default='imgs/usuarios/default-icon.jpg', max_length=100),\n        ),",
+        "detail": "ballers085.migrations.0005_alter_userprofile_link_foto_perfil",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0006_alter_userprofile_link_foto_perfil",
+        "description": "ballers085.migrations.0006_alter_userprofile_link_foto_perfil",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0005_alter_userprofile_link_foto_perfil'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userprofile',\n            name='link_foto_perfil',\n            field=models.CharField(default='imgs/usuarios/default.jpg', max_length=100),\n        ),",
+        "detail": "ballers085.migrations.0006_alter_userprofile_link_foto_perfil",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0007_alter_userprofile_user",
+        "description": "ballers085.migrations.0007_alter_userprofile_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0006_alter_userprofile_link_foto_perfil'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userprofile',\n            name='user',\n            field=models.OneToOneField(max_length=30, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "ballers085.migrations.0007_alter_userprofile_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ballers085.migrations.0008_remove_treinos_caminho_treino_img_and_more",
+        "description": "ballers085.migrations.0008_remove_treinos_caminho_treino_img_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('ballers085', '0007_alter_userprofile_user'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='treinos',\n            name='caminho_treino_img',\n        ),\n        migrations.AddField(",
+        "detail": "ballers085.migrations.0008_remove_treinos_caminho_treino_img_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "HelloConfig",
+        "kind": 6,
+        "importPath": "ballers085.apps",
+        "description": "ballers085.apps",
+        "peekOfCode": "class HelloConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"ballers085\"\n# from django.apps import AppConfig\n# class YourAppNameConfig(AppConfig):\n#     name = 'your_app_name'\n#     def ready(self):\n#         import your_app_name.signals",
+        "detail": "ballers085.apps",
+        "documentation": {}
+    },
+    {
+        "label": "EmailBackend",
+        "kind": 6,
+        "importPath": "ballers085.auth_backend",
+        "description": "ballers085.auth_backend",
+        "peekOfCode": "class EmailBackend(ModelBackend):\n    def authenticate(self, request, username=None, password=None, **kwargs):\n        try:\n            user = UserModel.objects.get(email=username)\n        except UserModel.DoesNotExist:\n            return None\n        if user.check_password(password):\n            return user\n        return None",
+        "detail": "ballers085.auth_backend",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 5,
+        "importPath": "ballers085.auth_backend",
+        "description": "ballers085.auth_backend",
+        "peekOfCode": "UserModel = get_user_model()\nclass EmailBackend(ModelBackend):\n    def authenticate(self, request, username=None, password=None, **kwargs):\n        try:\n            user = UserModel.objects.get(email=username)\n        except UserModel.DoesNotExist:\n            return None\n        if user.check_password(password):\n            return user\n        return None",
+        "detail": "ballers085.auth_backend",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileForm",
+        "kind": 6,
+        "importPath": "ballers085.forms",
+        "description": "ballers085.forms",
+        "peekOfCode": "class UserProfileForm(forms.ModelForm):\n    class Meta:\n        model = UserProfile\n        fields = ['nome_completo', 'link_foto_perfil']\nclass EmailAuthenticationForm(AuthenticationForm):\n    username = forms.EmailField(label=\"Email\")\nclass UserRegisterForm(UserCreationForm):\n    email = forms.EmailField()\n    nome_completo = forms.CharField(max_length=30)\n    class Meta:",
+        "detail": "ballers085.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EmailAuthenticationForm",
+        "kind": 6,
+        "importPath": "ballers085.forms",
+        "description": "ballers085.forms",
+        "peekOfCode": "class EmailAuthenticationForm(AuthenticationForm):\n    username = forms.EmailField(label=\"Email\")\nclass UserRegisterForm(UserCreationForm):\n    email = forms.EmailField()\n    nome_completo = forms.CharField(max_length=30)\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password1', 'password2', 'nome_completo']\n    def clean_username(self):\n        username = self.cleaned_data.get('username').lower()",
+        "detail": "ballers085.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegisterForm",
+        "kind": 6,
+        "importPath": "ballers085.forms",
+        "description": "ballers085.forms",
+        "peekOfCode": "class UserRegisterForm(UserCreationForm):\n    email = forms.EmailField()\n    nome_completo = forms.CharField(max_length=30)\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password1', 'password2', 'nome_completo']\n    def clean_username(self):\n        username = self.cleaned_data.get('username').lower()\n        if re.match(r'^[^a-zA-Z]', username):\n            raise forms.ValidationError('O nome de usuário não pode começar com um caractere especial.')",
+        "detail": "ballers085.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfile",
+        "kind": 6,
+        "importPath": "ballers085.models",
+        "description": "ballers085.models",
+        "peekOfCode": "class UserProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, max_length=30, unique=True)\n    nome_completo = models.CharField(max_length=30)\n    data_criacao = models.DateTimeField(auto_now_add=True)\n    link_foto_perfil = models.CharField(max_length=100, default='imgs/usuarios/default.jpg')\n    def save(self, *args, **kwargs):\n        self.user.username = self.user.username.lower()\n        validate_username(self.user.username)\n        super(UserProfile, self).save(*args, **kwargs)\n    def __str__(self):",
+        "detail": "ballers085.models",
+        "documentation": {}
+    },
+    {
+        "label": "Treinos",
+        "kind": 6,
+        "importPath": "ballers085.models",
+        "description": "ballers085.models",
+        "peekOfCode": "class Treinos(models.Model):\n    nome = models.CharField(max_length=30, unique=True)\n    descricao = models.TextField(max_length=40)\n    duracao = models.CharField(max_length=30)\n    link_video_treino = models.CharField(max_length=50, default=\"RpC7sv8_LIg\")\n    criador = models.ForeignKey(UserProfile, on_delete=models.CASCADE, related_name='treinos',default=2)\n    data_criacao = models.DateTimeField(auto_now_add=True)\n    categoria = models.CharField(max_length=30, default='Treino')\n    caminho_treino_url = models.CharField(max_length=30, default='nome_treino')\n    id = models.AutoField(primary_key=True)",
+        "detail": "ballers085.models",
+        "documentation": {}
+    },
+    {
+        "label": "Exercicios",
+        "kind": 6,
+        "importPath": "ballers085.models",
+        "description": "ballers085.models",
+        "peekOfCode": "class Exercicios(models.Model):\n    nome = models.CharField(max_length=30)\n    repeticoes = models.CharField(max_length=30)\n    treino = models.ForeignKey(Treinos, on_delete=models.CASCADE, related_name='exercicios')\n    link = models.CharField(max_length=100)\n    id = models.AutoField(primary_key=True)\n    def __str__(self):\n        return self.nome",
+        "detail": "ballers085.models",
+        "documentation": {}
+    },
+    {
+        "label": "validate_username",
+        "kind": 2,
+        "importPath": "ballers085.models",
+        "description": "ballers085.models",
+        "peekOfCode": "def validate_username(username):\n    if re.match(r'^[^a-zA-Z]', username):\n        raise ValidationError('O nome de usuário não pode começar com um caractere especial.')\nclass UserProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE, max_length=30, unique=True)\n    nome_completo = models.CharField(max_length=30)\n    data_criacao = models.DateTimeField(auto_now_add=True)\n    link_foto_perfil = models.CharField(max_length=100, default='imgs/usuarios/default.jpg')\n    def save(self, *args, **kwargs):\n        self.user.username = self.user.username.lower()",
+        "detail": "ballers085.models",
+        "documentation": {}
+    },
+    {
+        "label": "check_unique_email",
+        "kind": 2,
+        "importPath": "ballers085.signals",
+        "description": "ballers085.signals",
+        "peekOfCode": "def check_unique_email(sender, instance, **kwargs):\n    if User.objects.filter(email=instance.email).exclude(username=instance.username).exists():\n        raise ValidationError(f'O email {instance.email} já está em uso.')\n@receiver(post_save, sender=User)\ndef create_user_profile(sender, instance, created, **kwargs):\n    if created:\n        UserProfile.objects.create(user=instance)\n@receiver(post_save, sender=User)\ndef save_user_profile(sender, instance, **kwargs):\n    instance.userprofile.save()",
+        "detail": "ballers085.signals",
+        "documentation": {}
+    },
+    {
+        "label": "create_user_profile",
+        "kind": 2,
+        "importPath": "ballers085.signals",
+        "description": "ballers085.signals",
+        "peekOfCode": "def create_user_profile(sender, instance, created, **kwargs):\n    if created:\n        UserProfile.objects.create(user=instance)\n@receiver(post_save, sender=User)\ndef save_user_profile(sender, instance, **kwargs):\n    instance.userprofile.save()",
+        "detail": "ballers085.signals",
+        "documentation": {}
+    },
+    {
+        "label": "save_user_profile",
+        "kind": 2,
+        "importPath": "ballers085.signals",
+        "description": "ballers085.signals",
+        "peekOfCode": "def save_user_profile(sender, instance, **kwargs):\n    instance.userprofile.save()",
+        "detail": "ballers085.signals",
+        "documentation": {}
+    },
+    {
+        "label": "custom_404",
+        "kind": 2,
+        "importPath": "ballers085.urls",
+        "description": "ballers085.urls",
+        "peekOfCode": "def custom_404(request, exception):\n    return render(request, '404.html', status=404)\nurlpatterns = [\n    path('', index, name='index'),\n    path('hoop/', hoop, name='hoop'),\n    path('treinos/<str:categoria>/', treinos_categoria, name='treinos_categoria'),\n    path('treinos/<str:categoria>/<str:nome_treino>', treino_exercicio, name='treino_exercicio'),\n    path('profile/', profile, name='profile'),\n    path('register/', register, name='register'),\n    path('ballers085/', ballers085_redirect, name='ballers085_redirect'),",
+        "detail": "ballers085.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ballers085.urls",
+        "description": "ballers085.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', index, name='index'),\n    path('hoop/', hoop, name='hoop'),\n    path('treinos/<str:categoria>/', treinos_categoria, name='treinos_categoria'),\n    path('treinos/<str:categoria>/<str:nome_treino>', treino_exercicio, name='treino_exercicio'),\n    path('profile/', profile, name='profile'),\n    path('register/', register, name='register'),\n    path('ballers085/', ballers085_redirect, name='ballers085_redirect'),\n    path('login/', login_view, name='login'),  # Adiciona a URL de login\n    path('psicobaska/', psicobaska, name='psicobaska'),  # Adiciona a URL de login",
+        "detail": "ballers085.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 5,
+        "importPath": "ballers085.urls",
+        "description": "ballers085.urls",
+        "peekOfCode": "handler404 = custom_404",
+        "detail": "ballers085.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLoginView",
+        "kind": 6,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "class CustomLoginView(auth_views.LoginView):\n    authentication_form = EmailAuthenticationForm\ndef index(request):\n    return render(request, 'index.html')\ndef first_page(request):\n    return render(request, 'first_page.html', {'extracss':'css/first_page.css'})\n@login_required\ndef ballers085_redirect(request):\n    if not request.user.is_authenticated:\n        return redirect('login')  # Redireciona para a página de login se não estiver autenticado",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'index.html')\ndef first_page(request):\n    return render(request, 'first_page.html', {'extracss':'css/first_page.css'})\n@login_required\ndef ballers085_redirect(request):\n    if not request.user.is_authenticated:\n        return redirect('login')  # Redireciona para a página de login se não estiver autenticado\n    else:\n        return redirect('index')  # Redireciona para a página inicial se estiver autenticado",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "first_page",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def first_page(request):\n    return render(request, 'first_page.html', {'extracss':'css/first_page.css'})\n@login_required\ndef ballers085_redirect(request):\n    if not request.user.is_authenticated:\n        return redirect('login')  # Redireciona para a página de login se não estiver autenticado\n    else:\n        return redirect('index')  # Redireciona para a página inicial se estiver autenticado\n#===============================\ndef base_teste(request):",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "ballers085_redirect",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def ballers085_redirect(request):\n    if not request.user.is_authenticated:\n        return redirect('login')  # Redireciona para a página de login se não estiver autenticado\n    else:\n        return redirect('index')  # Redireciona para a página inicial se estiver autenticado\n#===============================\ndef base_teste(request):\n    return render(request, 'base_teste.html', {'extracss':'css/base_teste.css'})\n#===============================\n@login_required",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "base_teste",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def base_teste(request):\n    return render(request, 'base_teste.html', {'extracss':'css/base_teste.css'})\n#===============================\n@login_required\ndef treinos(request):\n    return render(request, 'treinos.html', {'extracss':'css/treinos.css'})\ndef psicobaska(request):\n    return render(request, 'psicomotor/psicobaska.html', {'extracss':'css/psicobaska.css'})\n@login_required\ndef hoop(request):",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "treinos",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def treinos(request):\n    return render(request, 'treinos.html', {'extracss':'css/treinos.css'})\ndef psicobaska(request):\n    return render(request, 'psicomotor/psicobaska.html', {'extracss':'css/psicobaska.css'})\n@login_required\ndef hoop(request):\n    return render(request, 'hoop.html', {'extracss':'css/hoop.css'})\n@login_required\ndef treinos_categoria(request, categoria):\n    treinos = Treinos.objects.filter(categoria=categoria)",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "psicobaska",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def psicobaska(request):\n    return render(request, 'psicomotor/psicobaska.html', {'extracss':'css/psicobaska.css'})\n@login_required\ndef hoop(request):\n    return render(request, 'hoop.html', {'extracss':'css/hoop.css'})\n@login_required\ndef treinos_categoria(request, categoria):\n    treinos = Treinos.objects.filter(categoria=categoria)\n    if categoria ==\"academia\":\n        return render(request, 'treinos_academia.html', {'extracss':'css/treinos_academia.css', 'treinos': treinos, 'categoria': categoria})  ",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "hoop",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def hoop(request):\n    return render(request, 'hoop.html', {'extracss':'css/hoop.css'})\n@login_required\ndef treinos_categoria(request, categoria):\n    treinos = Treinos.objects.filter(categoria=categoria)\n    if categoria ==\"academia\":\n        return render(request, 'treinos_academia.html', {'extracss':'css/treinos_academia.css', 'treinos': treinos, 'categoria': categoria})  \n    return render(request, 'treinos.html', {'extracss':'css/treinos.css', 'treinos': treinos, 'categoria': categoria})\n@login_required\ndef treino_exercicio(request, nome_treino, categoria):",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "treinos_categoria",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def treinos_categoria(request, categoria):\n    treinos = Treinos.objects.filter(categoria=categoria)\n    if categoria ==\"academia\":\n        return render(request, 'treinos_academia.html', {'extracss':'css/treinos_academia.css', 'treinos': treinos, 'categoria': categoria})  \n    return render(request, 'treinos.html', {'extracss':'css/treinos.css', 'treinos': treinos, 'categoria': categoria})\n@login_required\ndef treino_exercicio(request, nome_treino, categoria):\n    treino_escolhido = Treinos.objects.filter(caminho_treino_url=nome_treino)\n    categoria = categoria\n    exercicios = []",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "treino_exercicio",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def treino_exercicio(request, nome_treino, categoria):\n    treino_escolhido = Treinos.objects.filter(caminho_treino_url=nome_treino)\n    categoria = categoria\n    exercicios = []\n    exercicio1 = None\n    try:\n        exercicios = Exercicios.objects.filter(treino_id=treino_escolhido[0].id)\n        if exercicios:\n            exercicio1 = exercicios[0]\n    except Exception as e:",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def profile(request):\n    try:\n        usuario = UserProfile.objects.get(user=request.user)\n    except UserProfile.DoesNotExist:\n        usuario = UserProfile(user=request.user)\n    if request.method == 'POST':\n        form = UserProfileForm(request.POST, instance=usuario)\n        if form.is_valid():\n            form.save()\n            return redirect('profile')",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_link",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def profile_link(request, usuario):\n    try:\n        usuario = User.objects.filter(username=usuario)\n        usuario1 = UserProfile.objects.filter(user_id=usuario[0].id)\n    except:\n        return render(request,\"404.html\")\n    return render(request, 'profile_perfil.html', {'extracss':'css/profile.css', 'usuario': usuario1[0]})\ndef register(request):\n    if request.method == 'POST':\n        form = UserRegisterForm(request.POST)",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        form = UserRegisterForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            messages.success(request, f'Conta criada para {username}!')\n            return redirect('login')\n    else:\n        form = UserRegisterForm()",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "ballers085.views",
+        "description": "ballers085.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        form = AuthenticationForm(request, data=request.POST)\n        if form.is_valid():\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password')\n            user = authenticate(username=username, password=password)\n            if user is not None:\n                login(request, user)\n                # Redireciona para a página inicial após o login bem-sucedido",
+        "detail": "ballers085.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    load_dotenv()\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
